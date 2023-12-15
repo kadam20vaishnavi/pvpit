@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Placement">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/red_200" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@color/red_200" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Placement"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:fontFamily="@font/arima_bold"
+                android:textSize="25sp"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/red_200" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@color/red_200" /></LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingEnd="10dp">
+            <ImageView
+                android:id="@+id/volumeupp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/baseline_volume_up_24"
+                android:layout_gravity="right"
+                android:visibility="gone"
+                />
+            <ImageView
+                android:id="@+id/volumedownp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/baseline_volume_off_24"
+                android:layout_gravity="right"
+                android:visibility="visible"
+                />
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TOP HIGHLIGHTS OF Placements"
+            android:textSize="20sp"
+            android:fontFamily="@font/arima_bold"
+            android:textColor="@color/blue_700"
+            android:layout_margin="10dp"
+            android:textStyle="bold"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:padding="5dp"
+            >
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:weightSum="2">
+
+                <TextView
+                    android:text="1."
+                    android:layout_width="0dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:layout_weight="0.08"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="5dp"/>
+                <TextView
+                    android:layout_column="1"
+                    android:layout_width="0dp"
+                    android:textSize="15sp"
+                    android:layout_weight="1.92"
+                    android:justificationMode="inter_word"
+                    android:text="1200 + Placements offered for A.Y.- 2022-2023. Max. Package of 09 LPA. and Average Package is 4.0 LPA."
+                    android:fontFamily="@font/arima_regular"
+                    android:layout_margin="0dp"
+                    android:textColor="@color/black"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:weightSum="2">
+
+                <TextView
+                    android:text="2."
+                    android:layout_width="0dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:layout_weight="0.08"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="5dp"/>
+                <TextView
+                    android:layout_column="1"
+                    android:layout_width="0dp"
+                    android:textSize="15sp"
+                    android:layout_weight="1.92"
+                    android:justificationMode="inter_word"
+                    android:text="Maharashtra’s First Centre of Excellence Lab by SAP India is going to be established in PVPIT worth rupees 30 Lakhs. Computer and ENTC students placement guarantee by SAP India of trained students."
+                    android:fontFamily="@font/arima_regular"
+                    android:layout_margin="0dp"
+                    android:textColor="@color/black"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:weightSum="2">
+
+                <TextView
+                    android:text="3."
+                    android:layout_width="0dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:layout_weight="0.08"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="5dp"/>
+                <TextView
+                    android:layout_column="1"
+                    android:layout_width="0dp"
+                    android:textSize="15sp"
+                    android:layout_weight="1.92"
+                    android:justificationMode="inter_word"
+                    android:text="On the occasion of our Hon. President’s Birthday Placement Week organised in our campus 6 days-7 MNC Companies and more than 25 Colleges, 800+ students participated and 43+ offer letters rolled out."
+                    android:fontFamily="@font/arima_regular"
+                    android:layout_margin="0dp"
+                    android:textColor="@color/black"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:weightSum="2">
+
+                <TextView
+                    android:text="4."
+                    android:layout_width="0dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:layout_weight="0.08"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="5dp"/>
+                <TextView
+                    android:layout_column="1"
+                    android:layout_width="0dp"
+                    android:textSize="15sp"
+                    android:layout_weight="1.92"
+                    android:justificationMode="inter_word"
+                    android:text="About 14+ MOU’s Done with TOP Multinational Company like IBM Skill Build, Indovance PVT LTD, SAP India, BOOM Panda, FUEL."
+                    android:fontFamily="@font/arima_regular"
+                    android:layout_margin="0dp"
+                    android:textColor="@color/black"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:weightSum="2">
+
+                <TextView
+                    android:text="5."
+                    android:layout_width="0dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:layout_weight="0.08"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="5dp"/>
+                <TextView
+                    android:layout_column="1"
+                    android:layout_width="0dp"
+                    android:textSize="15sp"
+                    android:layout_weight="1.92"
+                    android:justificationMode="inter_word"
+                    android:text="National Level FDP conducted in PVPIT sponsored SAP and Microsoft for our Faculties."
+                    android:fontFamily="@font/arima_regular"
+                    android:layout_margin="0dp"
+                    android:textColor="@color/black"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:weightSum="2">
+
+                <TextView
+                    android:text="6."
+                    android:layout_width="0dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:layout_weight="0.08"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="5dp"/>
+                <TextView
+                    android:layout_column="1"
+                    android:layout_width="0dp"
+                    android:textSize="15sp"
+                    android:layout_weight="1.92"
+                    android:justificationMode="inter_word"
+                    android:text="National Level FDP conducted in PVPIT sponsored SAP and Microsoft for our Faculties."
+                    android:fontFamily="@font/arima_regular"
+                    android:layout_margin="0dp"
+                    android:textColor="@color/black"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:weightSum="2">
+
+                <TextView
+                    android:text="6."
+                    android:layout_width="0dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:layout_weight="0.08"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="5dp"/>
+                <TextView
+                    android:layout_column="1"
+                    android:layout_width="0dp"
+                    android:textSize="15sp"
+                    android:layout_weight="1.92"
+                    android:justificationMode="inter_word"
+                    android:text="Employability Skills Training conducted for our students. Like- CORE JAVA, Aptitude training, Soft skills training, Quick Heal Training by two agencies day and evening offline and online both, Sevensense training CRT model."
+                    android:fontFamily="@font/arima_regular"
+                    android:layout_margin="0dp"
+                    android:textColor="@color/black"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:weightSum="2">
+
+                <TextView
+                    android:text="7."
+                    android:layout_width="0dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:layout_weight="0.08"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="5dp"/>
+                <TextView
+                    android:layout_column="1"
+                    android:layout_width="0dp"
+                    android:textSize="15sp"
+                    android:layout_weight="1.92"
+                    android:justificationMode="inter_word"
+                    android:text="More than 100+ Companies visited our College."
+                    android:fontFamily="@font/arima_regular"
+                    android:layout_margin="0dp"
+                    android:textColor="@color/black"/>
+            </TableRow>
+        </TableLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:src="@drawable/placement1"
+            android:layout_margin="20dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:src="@drawable/placement2"
+            android:layout_margin="20dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:src="@drawable/placement3"
+            android:layout_margin="20dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:src="@drawable/placement4"
+            android:layout_margin="20dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:src="@drawable/placement5"
+            android:layout_margin="20dp"/>
+    </LinearLayout>
+</ScrollView>

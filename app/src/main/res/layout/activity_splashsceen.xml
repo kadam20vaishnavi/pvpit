@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Splashsceen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:id="@+id/li1"
+        >
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/logopvpit"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="10dp"
+            android:id="@+id/img"
+            />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/logotssm"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/img2"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:id="@+id/li2"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WELCOME"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:fontFamily="@font/arima_regular"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PADMABHOOSHAN VASANTDADA PATIL
+INSTITUTE OF TECHNOLOGY"
+            android:textColor="@color/red_700"
+            android:fontFamily="@font/arima_bold"
+            android:lineSpacingExtra="2dp"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Bavdhan, Pune"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:fontFamily="@font/arima_regular"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

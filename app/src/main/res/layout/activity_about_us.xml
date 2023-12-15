@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutUs">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/red_200" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="2dp"
+            android:background="@color/red_200" /></LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:textColor="@color/black"
+        android:fontFamily="@font/arima_bold"
+        android:textSize="20sp"
+        android:padding="5dp"
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/red_200" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="2dp"
+                android:background="@color/red_200" /></LinearLayout>
+    </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingEnd="10dp">
+            <ImageView
+                android:id="@+id/volumeup"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/baseline_volume_up_24"
+                android:layout_gravity="right"
+                android:visibility="gone"
+                />
+            <ImageView
+                android:id="@+id/volumedown"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/baseline_volume_off_24"
+                android:layout_gravity="right"
+                android:visibility="visible"
+                />
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/about1"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/about2"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About TSSM"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:textColor="@color/red_200"
+            android:fontFamily="@font/arima_bold"
+            android:textSize="20sp"
+            android:padding="5dp"
+            />
+    <TextView
+        android:id="@+id/aboutus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:justificationMode="inter_word"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_horizontal|center"
+        android:text="The Shetkari Shikshan Mandal is a charitable trust registered under the Bombay
+Public Trust Act 1950 and the Societies Registration Act 1860."
+        android:fontFamily="@font/arima_regular"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/aboutus3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:justificationMode="inter_word"
+        android:layout_gravity="center_horizontal|center"
+        android:text="Dr. Prof. T. J. Sawant, President of TSSM, is a renowned entrepreneur and
+educationalist. He strongly believes that the establishment of excellent technical
+institutions is the key solution to the problem of the development of a techno-
+economic society. He is also the Secretary of Jayawant Shikshan Prasarak Mandal
+(JSPM), which is established in 1998 and is known as a leading education group in
+India. In a very small span with a number of institutes such as Engineering,
+Management, Pharmacy, Diploma, Computer Application and Pre-Primary, Primary,
+Secondary School in and around Pune in five campuses."
+        android:fontFamily="@font/arima_regular"
+        android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About PVPIT"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:textColor="@color/red_200"
+            android:fontFamily="@font/arima_bold"
+            android:textSize="20sp"
+            android:padding="5dp"
+            />
+
+        <TextView
+            android:id="@+id/aboutuspvpit1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:justificationMode="inter_word"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_horizontal|center"
+            android:text="The TSSM started the Padmabhooshan Vasantdada Patil Institute of Technology in
+the academic year 2006-07. The College is approved by All India Council for
+Technical Education (AICTE), New Delhi, recognized by Government of Maharashtra,
+Directorate of Technical Education (DTE) and affiliated to Savitribai Phule Pune
+University (SPPU) Pune."
+            android:fontFamily="@font/arima_regular"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/aboutuspvpit2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:justificationMode="inter_word"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_horizontal|center"
+            android:text="Padmabhooshan Vasantdada Patil Institute of Technology, is housed in a spacious
+campus at Bavdhan (KD), Chandni Chowk, near Kothrud, Pune, which is surrounded
+by greenery and mountains. Under the dynamic leadership of Dr. Prof. T. J. Sawant,
+the institute is progressing by keeping pace with the world. We believe in imparting
+value based quality engineering education so that, our students will be placed in the
+industry, public and private sector organizations and others. The Institute is well
+known for its discipline, good learning environment, and student-centric activities."
+            android:fontFamily="@font/arima_regular"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vision"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:textColor="@color/red_200"
+            android:fontFamily="@font/arima_bold"
+            android:textSize="20sp"
+            android:padding="5dp"
+            />
+        <TextView
+            android:id="@+id/aboutvision"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:justificationMode="inter_word"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_horizontal|center"
+            android:text="To satisfy the aspirations of youth force, who want to lead the nation towards prosperity
+through techno-economic Development."
+            android:fontFamily="@font/arima_regular"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mission"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:textColor="@color/red_200"
+            android:fontFamily="@font/arima_bold"
+            android:textSize="20sp"
+            android:padding="5dp"
+            />
+        <TextView
+            android:id="@+id/aboutmision"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:justificationMode="inter_word"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_horizontal|center"
+                android:text="To provide, nurture and maintain an environment of high academic excellence, research and
+    entrepreneurship for all aspiring students, which will prepare them to face global challenges
+    maintaining high ethical and moral standards by implementing quality practices."
+            android:fontFamily="@font/arima_regular"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quality Policy"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:textColor="@color/red_200"
+            android:fontFamily="@font/arima_bold"
+            android:textSize="20sp"
+            android:padding="5dp"
+            />
+
+        <TextView
+            android:id="@+id/aboutquality"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:justificationMode="inter_word"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_horizontal|center"
+            android:text="We at Padmbhooshan Vasantdada Patil Institute of Technology are committed to maximize
+student satisfaction through improved performance by imparting value based quality
+education."
+            android:fontFamily="@font/arima_regular"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Connect Us with:"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:textColor="@color/red_200"
+            android:fontFamily="@font/arima_bold"
+            android:textSize="20sp"
+            android:padding="5dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FaceBook :"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:fontFamily="@font/arima_bold"
+            android:textSize="15sp"
+            android:padding="5dp"
+            />
+            <TextView
+                android:id="@+id/facebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/facebook"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:textColor="@color/blue_700"
+                android:fontFamily="@font/arima_regular"
+                android:textSize="16sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Instagram :"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:fontFamily="@font/arima_bold"
+                android:textSize="15sp"
+                android:padding="5dp"
+                />
+            <TextView
+                android:id="@+id/instagram"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/instagram"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:textColor="@color/blue_700"
+                android:fontFamily="@font/arima_regular"
+                android:textSize="16sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LinkedIn :"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:fontFamily="@font/arima_bold"
+                android:textSize="15sp"
+                android:padding="5dp"
+                />
+            <TextView
+                android:id="@+id/linkedin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/LinkedIn"
+                android:layout_weight="1"
+                android:textColor="@color/blue_700"
+                android:fontFamily="@font/arima_regular"
+                android:textSize="16sp"
+                />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YouTube :"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:fontFamily="@font/arima_bold"
+            android:textSize="15sp"
+            android:padding="5dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="College >>"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:fontFamily="@font/arima_regular"
+            android:textSize="17sp"
+            />
+        <TextView
+            android:id="@+id/college"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/college"
+            android:layout_weight="1"
+            android:textColor="@color/blue_700"
+            android:fontFamily="@font/arima_regular"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FE Department >>"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:fontFamily="@font/arima_regular"
+            android:textSize="17sp"
+            />
+        <TextView
+            android:id="@+id/fedept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/FEdept"
+            android:layout_weight="1"
+            android:textColor="@color/blue_700"
+            android:fontFamily="@font/arima_regular"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mech Department >>"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:fontFamily="@font/arima_regular"
+            android:textSize="17sp"
+            />
+        <TextView
+            android:id="@+id/mechdept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/mechdept"
+            android:layout_weight="1"
+            android:textColor="@color/blue_700"
+            android:fontFamily="@font/arima_regular"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admission Process >>"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:fontFamily="@font/arima_regular"
+            android:textSize="17sp"
+            />
+        <TextView
+            android:id="@+id/admissionprocess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/admission"
+            android:layout_weight="1"
+            android:textColor="@color/blue_700"
+            android:fontFamily="@font/arima_regular"
+            android:textSize="16sp"
+            />
+    </LinearLayout>
+
+</ScrollView>
